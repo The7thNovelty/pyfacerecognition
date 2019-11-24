@@ -6,7 +6,7 @@ wlan.active(True)
 if wlan.isconnected() == True:
   print("Already connected")
 else:
-  wlan.connect('NetGearCisco-WPA2','$eem@V@ibh@v')
+  wlan.connect(ssid,password)
 
 
 import webcam
